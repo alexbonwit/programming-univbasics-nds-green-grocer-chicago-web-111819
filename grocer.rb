@@ -93,7 +93,13 @@ def apply_clearance(cart)
   # Consult README for inputs and outputs
   #
   # REMEMBER: This method **should** update cart
+  counter = 0
   
+  while counter < cart.length do
+    if cart[counter][:clearance] == true
+      
+    end
+  end
   
 end
 
